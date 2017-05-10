@@ -1,0 +1,82 @@
+{
+        "uniqueId":"1001",
+        "title":"Black-Brown Premium Check Shirt, Formal Shirt",
+        "price":100.0,
+        "price_fq":100.0,
+        "color":["Brown",
+          "Black"],
+        "color_fq":["Brown",
+          "Black"],
+        "color_unbxdSrc":["Brown",
+          "Black"],
+        "category":["Clothing",
+          "Shirts",
+          "Plain",
+          "Formal Wear"],
+        "gender":"Men",
+        "sku":"sku-14101",
+        "is_available":1,
+        "quantity":23,
+        "brand":"Van Huesen",
+        "custom_param":"0",
+        "availability":true,
+        "parent_unbxd":true,
+"_childDocuments_":[
+  {"color":"red","size":"M","uniqueId":"23"},
+  {"color":"red","size":"L","uniqueId":"24"},
+  {"color":"blue","size":"XL","uniqueId":"25"},
+  {"color":"blue","size":"S","uniqueId":"26"}
+  
+] 
+},
+{
+        "uniqueId":"20001",
+        "title":"An hsn document",
+        "price":100.0,
+        "price_fq":100.0,
+         "category":["Clothing",
+          "Shirts",
+          "Plain",
+          "Formal Wear"],
+        "gender":"Men",
+        "sku":"sku-14101",
+        "is_available":1,
+        "quantity":23,
+        "brand":"Van Huesen",
+        "custom_param":"0",
+        "availability":true,
+        "parent_unbxd":true,
+"_childDocuments_":[
+  {"color":"red","size":"M","uniqueId":"23"},
+  {"color":"red","size":"L","uniqueId":"24"},
+  {"color":"blue","size":"XL","uniqueId":"25"},
+  {"color":"blue","size":"S","uniqueId":"26"}
+
+]
+},
+{
+        "uniqueId":"20001",
+        "title":"An hsn document",
+        "price":100.0,
+        "price_fq":100.0,
+         "category":["Clothing",
+          "Shirts",
+          "Plain",
+          "Formal Wear"],
+        "gender":"Men",
+        "sku":"sku-14101",
+        "is_available":1,
+        "quantity":23,
+        "brand":"Van Huesen",
+        "custom_param":"0",
+        "availability":true,
+        "parent_unbxd":true,
+"_childDocuments_":[
+  {"color":"yodelling","size":"M","uniqueId":"23"},
+  {"color":"yodelling","size":"L","uniqueId":"24"},
+  {"color":"blue","size":"XL","uniqueId":"25"},
+  {"color":"blue","size":"S","uniqueId":"26"}
+
+]
+}
+
