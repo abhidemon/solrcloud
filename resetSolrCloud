@@ -1,3 +1,18 @@
+## Download solr if not present
+
+fileName="solr-6.5.1.tgz"
+
+if [ $( ls -l $fileName   2> /dev/null | wc -l ) -ne 0 ]
+then
+        echo "SolrFound"
+else
+        echo "Solr not Found. \n Downloading...."
+	wget http://mirror.fibergrid.in/apache/lucene/solr/6.5.1/solr-6.5.1.tgz &&
+	echo "Solr Download Complete"
+fi
+
+
+
 #sh /Users/abhi/IdeaProjects/solr-plugin
 mvn clean package -f /Users/abhi/IdeaProjects/solr-plugin/pom.xml &&
 cp /Users/abhi/IdeaProjects/solr-plugin/target/solr-plugin-0.3-jar-with-dependencies.jar ~/Downloads/solr-6.5.0/dist/solr-plugin-0.3.jar
