@@ -1,0 +1,4 @@
+export solrVersion="6.5.1"
+export solrDownloadLink="http://mirror.fibergrid.in/apache/lucene/solr/6.5.1/solr-6.5.1.tgz"
+export solrPluginDir="/Users/abhi/IdeaProjects/solr-plugin"
+
